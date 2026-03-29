@@ -42,7 +42,7 @@ body {
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* EDGE GLOW ONLY */
+
 .book-card:hover {
   border-color: #2a2a2a;
   box-shadow: 0 0 0 1px #2a2a2a, 0 0 12px rgba(255, 255, 255, 0.05);
@@ -69,7 +69,7 @@ body {
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 6px;
-  color: #d1d5db; /* slightly brighter for titles */
+  color: #d1d5db;
 }
 
 .book-card-author,
@@ -158,13 +158,13 @@ body {
   color: #d1d5db;
 }
 
-/* Form wrapper */
+
 .form {
-  max-width: 800px;       /* bigger card */
-  width: 90%;             /* responsive */
+  max-width: 800px;
+  width: 90%;
   margin: 40px auto;
   padding: 24px;
-  background: #0a0a0a;    /* match dark theme */
+  background: #0a0a0a;
   border-radius: 16px;
   border: 1px solid #111111;
   display: flex;
@@ -193,7 +193,6 @@ body {
   border-color: #2a2a2a;
 }
 
-/* DETAILS */
 .book-details {
   display: flex;
   justify-content: center;
@@ -325,3 +324,4 @@ a {
 .btn {
   text-decoration: none;
 }
+
